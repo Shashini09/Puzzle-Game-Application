@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonShuffle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/buttonShuffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Shuffle" />
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonShuffle"
+        android:layout_marginStart="16dp"
+        android:text="Time: 00:00"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMoves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonShuffle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:text="Moves: 0"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

@@ -1,0 +1,1 @@
+Creating a puzzle game application using Android Studio in my 2nd year. The project includes developing layouts, activities, ViewModel, intents, and shared preferences. The application is coded in Kotlin and offers an engaging and challenging experience for users.
